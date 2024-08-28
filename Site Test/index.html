@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Olá Mundo</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h2>log em sua conta</h2>
+            <form>
+                <div class="input-div"> 
+                    <div class="email-password-div">
+                        <input type="text" placeholder="Email" id="email" required><br>
+                    </div>
+                    <div class="email-password-div">
+                        <input type="password" placeholder="Password" id="password" required>
+                        <div class="strong-div">
+                            <strong onclick="show()" id="show">SHOW</strong>
+                            <strong onclick="hide()" id="hide">HIDE</strong>
+                        </div>
+                    </div>
+                    <h3 id="warning"></h3>
+                </div>
+                <div class="LogIn" onclick="LogIn()">
+                    <button>Log In</button>
+                </div>
+                <div class="forgot">
+                    <p>Esqueceu a Senha?</p>
+                </div>  
+            </form>
+            <div class="Link-div">
+                <div class="Links">
+                    <img src="https://cdn.pixabay.com/photo/2015/12/11/11/43/google-1088004_1280.png" width="30px">
+                    <p>Continue com Google</p>
+                </div>
+                <div class="Links">
+                     <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png" width="30px" class="github">
+                     <p>Continue com Github</p>
+                </div>
+                <div class="Links">
+                    <img src="https://cdn.pixabay.com/photo/2017/01/28/13/23/color-circle-arricles-2015356_1280.png" width="30px">
+                    <p>Continue com FireFox</p>
+                </div>
+                <div class="Links">
+                    <img src="https://cdn.pixabay.com/photo/2016/01/26/17/15/gmail-1162901_1280.png" width="30px">
+                    <p>Continue com Gmail</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
